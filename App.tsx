@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppView, User, Skill, Gig, UserRole, Transaction } from './types';
-import { INITIAL_USER, MOCK_SKILLS, MOCK_GIGS, MOCK_VERIFIER } from './constants';
+import { AppView, User, Skill, Gig, UserRole, Transaction } from '/types';
+import { INITIAL_USER, MOCK_SKILLS, MOCK_GIGS, MOCK_VERIFIER } from '/constants';
 import Onboarding from '/components/Onboarding';
 import ProfileView from '/components/ProfileView';
 import SkillUpload from '/components/SkillUpload';
