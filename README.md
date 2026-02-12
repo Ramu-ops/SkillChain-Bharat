@@ -1,10 +1,15 @@
 # SkillChain Bharat
 
-Prototype for Decentralized Skill Verification & Monetization Platform
+Decentralized Skill Verification & Monetization Platform using Blockchain & AI
+
+## Features (Prototype)
+- React + TypeScript frontend
+- Google Gemini API for skill matching & recommendations
+- Mobile-first UI
 
 ## Run Locally
-1. npm install
-2. Add GEMINI_API_KEY to .env.local
-3. npm run dev
+1. `npm install`
+2. Add `VITE_GEMINI_API_KEY=your-key` to `.env.local`
+3. `npm run dev`
 
-Blockchain + AI for India's youth skills.
+GitHub: https://github.com/Ramu-ops/SkillChain-Bharat
