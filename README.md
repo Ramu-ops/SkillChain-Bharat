@@ -1,12 +1,10 @@
+# SkillChain Bharat
 
+Prototype for Decentralized Skill Verification & Monetization Platform
 
 ## Run Locally
+1. npm install
+2. Add GEMINI_API_KEY to .env.local
+3. npm run dev
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Blockchain + AI for India's youth skills.
