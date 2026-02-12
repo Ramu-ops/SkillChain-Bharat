@@ -1,18 +1,18 @@
 
 import React, { useState, useEffect } from 'react';
-import { AppView, User, Skill, Gig, UserRole, Transaction } from '/types';
-import { INITIAL_USER, MOCK_SKILLS, MOCK_GIGS, MOCK_VERIFIER } from '/constants';
-import Onboarding from '/components/Onboarding';
-import ProfileView from '/components/ProfileView';
-import SkillUpload from '/components/SkillUpload';
-import VerifierDashboard from '/components/VerifierDashboard';
-import VerifierLogin from '/components/VerifierLogin';
-import EmployerLogin from '/components/EmployerLogin';
-import Marketplace from '/components/Marketplace';
-import EmployerPortal from '/components/EmployerPortal';
-import BottomNav from '/components/BottomNav';
-import Header from '/components/Header';
-import ManageSkills from '/components/ManageSkills';
+import { AppView, User, Skill, Gig, UserRole, Transaction } from './types';
+import { INITIAL_USER, MOCK_SKILLS, MOCK_GIGS, MOCK_VERIFIER } from './constants';
+import Onboarding from './components/Onboarding';
+import ProfileView from './components/ProfileView';
+import SkillUpload from './components/SkillUpload';
+import VerifierDashboard from './components/VerifierDashboard';
+import VerifierLogin from './components/VerifierLogin';
+import EmployerLogin from './components/EmployerLogin';
+import Marketplace from './components/Marketplace';
+import EmployerPortal from './components/EmployerPortal';
+import BottomNav from './components/BottomNav';
+import Header from './components/Header';
+import ManageSkills from './components/ManageSkills';
 
 const App: React.FC = () => {
   const [currentUser, setCurrentUser] = useState<User>(INITIAL_USER);
